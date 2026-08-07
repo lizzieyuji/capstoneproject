@@ -1,0 +1,39 @@
+{
+  "configuration": {
+    "half_width": 8.0,
+    "grid_points": 1000,
+    "num_states": 6,
+    "hbar": 1.0,
+    "mass": 1.0,
+    "omega": 1.0
+  },
+  "baseline_checks": {
+    "dimension": 998,
+    "stored_nonzeros": 2992,
+    "expected_nonzeros": 2992,
+    "symmetry_error": 0.0,
+    "main_diagonal_error": 0.0,
+    "off_diagonal_error": 0.0,
+    "solver_difference": 3.921307722976053e-13,
+    "max_energy_error": 0.0004890212987858078,
+    "max_relative_energy_error_percent": 0.008891296341560141,
+    "normalization_error": 4.440892098500626e-16,
+    "orthogonality_error": 2.759133303913696e-16,
+    "max_wavefunction_l2_error": 0.0002523248079616123,
+    "max_density_l1_error": 0.00035552175482237737,
+    "max_parity_l2_error": 2.2498116959167667e-14,
+    "max_near_boundary_amplitude": 3.4855122905770815e-11,
+    "node_counts_correct": true
+  },
+  "grid_convergence": {
+    "minimum_fitted_order": 2.0000965115462344,
+    "maximum_fitted_order": 2.0005395676227073
+  },
+  "box_convergence": {
+    "target_dx": 0.02,
+    "largest_box_half_width": 8.0,
+    "max_L6_to_L8_energy_change": 1.576434272010374e-08,
+    "max_L7_to_L8_energy_change": 2.1938006966593093e-13,
+    "largest_box_boundary_amplitude": 4.368201225668083e-11
+  }
+}
